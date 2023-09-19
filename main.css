@@ -296,14 +296,26 @@ body{
 .section6div2 img:hover{
     transform: scale(1.2) rotate(5deg);
 }
+.instagram::after{
+    background: url("image/icon-instagram.svg");
+    content: "";
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    opacity: .9;
+    color: white;
+}
 
 
     
 .footercontainer{
     width: 100%;
     height: 288px;
-    display: flex;
-    justify-content: space-between;
+   float: left;
+   margin-left: 50px;
     align-items: center;
     padding-left: 50px ;
     padding-right: 0;
@@ -320,6 +332,14 @@ body{
     column-gap: 16px;
     
 }
+.applelogo{
+    width: 488px;
+    height: 306px;
+    background-image: url("image/apple-music-lockup-small-desktop.svg")
+    ;
+    margin-top: 100px;
+}
+
     
     
 

@@ -335,9 +335,13 @@ body{
 .applelogo{
     width: 488px;
     height: 306px;
-    background-image: url("image/apple-music-lockup-small-desktop.svg")
-    ;
+  
     margin-top: 100px;
+    margin-left: 30px;
+}
+.applelogo img{
+    width: 488px;
+    height: 306px;
 }
 
     

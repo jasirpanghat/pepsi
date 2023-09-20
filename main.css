@@ -240,6 +240,43 @@ body{
 
    
 }
+.get{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.get a{
+    text-decoration: none;
+}
+.get button{
+    background-color: transparent;
+    font-size:1em;
+    height: 2.3em;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    border-radius: 1.8em;
+    padding-top: 0.5em;
+    padding-left: 1.85em;
+    padding-right: 1.85em;
+    padding-bottom: 0.5em;
+    font-weight: bold;
+   
+   
+    text-transform: uppercase;
+
+}
+.get1{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.get1 p{
+    font-size: .7rem;
+    width: 390px;
+   
+    font-weight: 300;
+    color: #fff;
+
+}
 
 .section6{
     height: auto;
@@ -314,14 +351,25 @@ body{
 .footercontainer{
     width: 100%;
     height: 288px;
-   float: left;
-   margin-left: 50px;
+  display: flex;
+}
+.footerdiv1{
+   margin-top: 60px;
+   margin-left: 35px;
     align-items: center;
-    padding-left: 50px ;
-    padding-right: 0;
+    
     padding-top: 30px;
     padding-bottom: 50px;
-}   
+} 
+.footerdiv2{  
+margin-top: 60px;
+margin-left: 15px;  
+ align-items: center;
+ padding-left: 100px ;
+ padding-right: 0;
+ padding-top: 30px;
+ padding-bottom: 50px;
+}
 .footercontainer img{
     width: 100px;
     height: 100px;
@@ -329,9 +377,44 @@ body{
 .footerul{
     list-style: none;
     columns: 3;
-    column-gap: 16px;
+    column-gap: 100px;
+    display: block;
     
+   
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px
+    
+    
+    }
+.footerul li{
+    margin-top: 15px;
+   
+    
+} 
+.footerul li:first-child{
+    margin-top: 0;
+   
+    
+}    
+
+.footerul  a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: medium;
+    font-style: normal;
+    padding: 1rem ,0,0,0;
+  
+   
+   
+
+    
+   
 }
+
 .applelogo{
     width: 488px;
     height: 306px;
@@ -343,6 +426,33 @@ body{
     width: 488px;
     height: 306px;
 }
+.footerul a:hover{
+  opacity: .5;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+
+.icon{
+    margin-top: 130px;
+    width: 312px;
+    display: flex;
+    
+    margin-left: 140px;
+    
+}
+.icon img{
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+}
+.icon img:first-child{
+    margin-left: 0;
+}
+.icon img:hover{
+    opacity: 0.5;
+}
+
 
     
     
